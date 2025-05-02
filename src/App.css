@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.App {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  margin-top: 80px; /* Same as header height */
+  flex: 1;
+  overflow-y: auto;
+}
+
+.heading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.title {
+  background-color: #0258cab9;
+  color: white;
+  padding: 8px 85px;
+  border-radius: 6px;
+  border: 2px solid #000000;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.chat-toggle-button {
+  background-color: #0258ca;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-toggle-button:hover {
+  background-color: #0245a0;
+}
+
+.chat-toggle-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
