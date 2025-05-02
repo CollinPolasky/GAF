@@ -9,7 +9,7 @@ Highlights
 
 
 ## System Architecture/Design
-![Architecture](https://github.com/user-attachments/assets/9f2cd0b4-d68a-4397-82de-de1fe41b7f90)
+![Architecture](https://github.com/user-attachments/assets/3783725d-d35b-4a4c-9134-b87cffeba4c5)
 
 This flowchart shows the system's architecture including:
 - Multi-layered content filters and response validators
@@ -20,11 +20,12 @@ This flowchart shows the system's architecture including:
 # Interface Demo
 
 ## Dashboard
-![PartSelectDemoScreenshotStart](https://github.com/user-attachments/assets/a9a7b120-0cd7-4e6b-b9c7-3fe613a88e20)
+![GAFDemoScreenshotDashboard](https://github.com/user-attachments/assets/9f8b6ad0-7030-4005-ac1e-2ba69b87fe8a)
 
 
 ## Chat
-![PartSelectDemoScreenshot](https://github.com/user-attachments/assets/bbd9602e-39c9-4b55-a4eb-a93e81d8f2a9)
+
+![GAFDemoScreenshotChat](https://github.com/user-attachments/assets/05011d4d-c5b1-4686-b81a-fa0bf4d6daea)
 
 
 
@@ -44,7 +45,7 @@ Replace "your api key" with your actual API keys.
 Note: Make sure to keep your .env file private and never commit it to version control.
 
 # Data
-The files and functions are provided should you wish to replicate the databases for RAG features (in pinecone or otherwise) within /data and /RAG respectively
+The files and functions are provided should you wish to replicate the databases for RAG features (in pinecone or otherwise) within /data and /backend/RAG respectively
 
 Starting the Web Interface
 
